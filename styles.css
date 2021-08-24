@@ -1,0 +1,47 @@
+.button-row {
+    display: block;
+}
+
+.buttons {
+    display: block;
+}
+
+.calc {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.screen {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.calc-button.clear {
+    width: 49.7%;
+}
+
+.calc-button {
+    height: 100px;
+    width: 24.5%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.button-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: .5%;
+}
+
+.calc-button:last-child {
+    background-color: #df974c;
+    color: white;
+}
+
+.calc-button.zero {
+    width: 74.8%;
+}
